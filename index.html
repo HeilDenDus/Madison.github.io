@@ -24,13 +24,12 @@
         <img src="Assets/img/raton.png" alt="">
 
         <button id="start">Empezar</button>
+        <audio src="Assets/audio/fondo.mp3" autoplay loop></audio>
     </div>
 
     <div id="black"></div>
 
     <script>
-        const music = new Audio('Assets/audio/fondo.mp3');
-        music.play();
         document.getElementById("start").addEventListener("click", () => {
             const laught = new Audio('Assets/audio/inicio.mp3');
             laught.play();
